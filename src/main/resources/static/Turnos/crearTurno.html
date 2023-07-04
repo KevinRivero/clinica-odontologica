@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de pacientes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="../index.html">Gestión Clínica Odontológica</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto me-5 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pacientes
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/Pacientes/crearPaciente.html">Dar alta a paciente</a></li>
+                      <li><a class="dropdown-item" href="/Pacientes/actualizarPaciente.html">Actualizar paciente</a></li>
+                      <li><a class="dropdown-item" href="/Pacientes/buscarPaciente.html">Buscar paciente</a></li>
+                      <li><a class="dropdown-item" href="/Pacientes/eliminarPaciente.html">Eliminar Paciente</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Odontólogos
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/Odontologos/crearOdontologo.html">Dar alta a odontólogo</a></li>
+                    <li><a class="dropdown-item" href="/Odontologos/actualizarOdontologo.html">Actualizar odontólogo</a></li>
+                    <li><a class="dropdown-item" href="/Odontologos/buscarOdontologo.html">Buscar odontólogo</a></li>
+                    <li><a class="dropdown-item" href="/Odontologos/eliminarOdontologo.html">Eliminar odontólogo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Turnos
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/Turnos/crearTurno.html">Crear turno</a></li>
+                    <li><a class="dropdown-item" href="/Turnos/actualizarTurno.html">Actualizar turno</a></li>
+                    <li><a class="dropdown-item" href="/Turnos/buscarTurno.html">Buscar turno</a></li>
+                    <li><a class="dropdown-item" href="/Turnos/eliminarTurno.html">Eliminar turno</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid m-5">
+
+        <!-- Form para crear turno -->
+              <div class="row">
+                <h1>Crear turno</h1>
+            <div class="row col-md-6">
+              
+              <form class="row"id="form">
+                <div class="col-md-6">
+                  <div class="col-md-6">
+                    <label for="pacienteId" class="form-label">Paciente: Id</label>
+                    <input name="pacienteId" type="text" class="form-control" id="pacienteId" placeholder="Ingresa el id del paciente" required>
+                  </div>
+                    <div class="col-md-6">
+                      <label for="apellidoPaciente" class="form-label">Paciente: Apellido</label>
+                      <input name="apellidoPaciente" type="text" class="form-control" id="apellidoPaciente" placeholder="Ese campo se autocompleta" disabled>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="nombrePaciente" class="form-label">Paciente: Nombre</label>
+                      <input name="nombrePaciente" type="text" class="form-control" id="nombrePaciente" placeholder="Ese campo se autocompleta" disabled>
+                    </div>
+                    <div class="col-6">
+                      <label for="dni" class="form-label">Paciente: DNI</label>
+                      <input name="dni" type="text" class="form-control" id="dni" placeholder="Ese campo se autocompleta" disabled>
+                    </div>
+                    <div class="col-6">
+                      <label for="fechaIngreso" class="form-label">Paciente: Fecha ingreso</label>
+                      <input name="fechaIngreso" type="text" class="form-control" id="fechaIngreso" placeholder="Fecha ingreso" disabled>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                  <div class="col-md-6">
+                    <label for="odontologoid" class="form-label">Id Odontologo</label>
+                    <input name="odontologoid" type="text" class="form-control" id="odontologoId" placeholder="Ingresa el id del odontologo" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="nombreOdontologo" class="form-label">Nombre</label>
+                    <input name="nombreOdontologo" type="text" class="form-control" id="nombreOdontologo" placeholder="Ese campo se autocompleta" disabled>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="apellidoOdontologo" class="form-label">Apellido</label>
+                    <input name="apellido" type="text" class="form-control" id="apellidoOdontologo" placeholder="Ese campo se autocompleta" disabled>
+                  </div>
+                  <div class="col-6">
+                    <label for="matricula" class="form-label">Matricula</label>
+                    <input name="matricula" type="text" class="form-control" id="matricula" placeholder="Ese campo se autocompleta" disabled>
+                  </div>
+                </div>
+                  <div class="col-9">
+                    <label for="fechaTurno" class="form-label">Fecha del turno</label>
+                    <input name="fechaTurno" type="date" class="form-control" id="fechaTurno" placeholder="Ingresa la fecha del turno">
+                  </div>
+                 
+                  
+                  <div class="col-6">
+                    <button type="submit" class="btn btn-primary">Crear</button>
+                  </div>
+                </form>
+            </div>
+            
+            <!-- Table para mostrar turnos -->
+            <div class="row col-md-6">
+              <h1>Listado de turnos</h1>
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="col-1 m-0">Id</th>
+                      <th scope="col" class="col-2">Paciente</th>
+                      <th scope="col" class="col-2">Odontologo</th>
+                      <th scope="col" class="col-2">Fecha del turno</th>    
+                    </tr>
+                  </thead>
+                  <tbody id="table">
+                    
+                  </tbody>
+                </table>
+            </div>
+          </div>
+          </div>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+      <script src="/Turnos/js/crearTurno.js"></script>      
+    </body>
+</html>
