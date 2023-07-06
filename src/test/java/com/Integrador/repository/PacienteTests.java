@@ -5,11 +5,8 @@ import com.Integrador.entities.Paciente;
 import com.Integrador.service.PacienteService;
 import org.apache.log4j.Logger;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.aspectj.lang.annotation.Before;
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
@@ -25,10 +22,8 @@ public class PacienteTests {
     @Autowired
     private PacienteRepository pacienteRepository;
 
-    @Autowired
-    private Paciente paciente;
-    @Autowired
     private Domicilio domicilio;
+    private Paciente paciente;
 
 
     // Se crea un paciente para poder ejecturas las pruebas

@@ -1224,3 +1224,87 @@
 [2023-07-03 23:21:40] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
 [2023-07-03 23:21:40] [ DEBUG] [PacienteTests:186] Inicia test para eliminar paciente
 [2023-07-03 23:21:40] [ DEBUG] [PacienteTests:202] Finaliza correctamente el test para eliminar paciente
+[2023-07-04 00:02:59] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 00:02:59] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 00:02:59] [ DEBUG] [PacienteTests:186] Inicia test para eliminar paciente
+[2023-07-04 00:02:59] [ DEBUG] [PacienteTests:200] Finaliza correctamente el test para eliminar paciente
+[2023-07-04 15:03:43] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 15:03:43] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 15:03:43] [ DEBUG] [PacienteTests:112] Iniciando test para buscar un paciente por id
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:132] Finaliza test para buscar un paciente por id
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:186] Inicia test para eliminar paciente
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:200] Finaliza correctamente el test para eliminar paciente
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:143] Inicia test para actualizar paciente
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:178] Finaliza correctamente el test para actualizar paciente
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:59] Iniciando test para guardar un paciente
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:67] Finaliza correctamente el test para guardar un paciente
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:74] Iniciando test para listar pacientes
+[2023-07-04 15:03:44] [ DEBUG] [PacienteTests:105] Finaliza correctamente el test para listar pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:112] Iniciando test para buscar un paciente por id
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:132] Finaliza test para buscar un paciente por id
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:186] Inicia test para eliminar paciente
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:200] Finaliza correctamente el test para eliminar paciente
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:143] Inicia test para actualizar paciente
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:178] Finaliza correctamente el test para actualizar paciente
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:59] Iniciando test para guardar un paciente
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:67] Finaliza correctamente el test para guardar un paciente
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:38] Se inicia metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:53] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:74] Iniciando test para listar pacientes
+[2023-07-04 22:20:05] [ DEBUG] [PacienteTests:105] Finaliza correctamente el test para listar pacientes
+[2023-07-04 22:44:12] [ DEBUG] [PacienteServiceTest:45] Se inicia metodo setup para crear pacientes
+[2023-07-04 22:44:12] [ DEBUG] [PacienteServiceTest:60] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-04 22:44:13] [ DEBUG] [PacienteServiceTest:67] Service: Inicia test para guardar un paciente 
+[2023-07-05 18:18:43] [ DEBUG] [PacienteServiceTest:46] Se inicia metodo setup para crear pacientes
+[2023-07-05 18:18:43] [ DEBUG] [PacienteServiceTest:61] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 18:18:43] [ DEBUG] [PacienteServiceTest:87] Service: Inicia test para listar pacientes
+[2023-07-05 18:29:23] [ DEBUG] [PacienteServiceTest:45] Se inicia metodo setup para crear pacientes
+[2023-07-05 18:29:23] [ DEBUG] [PacienteServiceTest:60] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 18:29:23] [ DEBUG] [PacienteServiceTest:86] Service: Inicia test para listar pacientes
+[2023-07-05 18:29:23] [ DEBUG] [PacienteServiceTest:121] Finaliza correctamente el test para listar pacientes
+[2023-07-05 18:30:10] [ DEBUG] [PacienteServiceTest:45] Se inicia metodo setup para crear pacientes
+[2023-07-05 18:30:10] [ DEBUG] [PacienteServiceTest:60] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 18:30:10] [ DEBUG] [PacienteServiceTest:86] Service: Inicia test para listar pacientes
+[2023-07-05 18:30:10] [ DEBUG] [PacienteServiceTest:117] [com.Integrador.entities.Paciente@5af9926a, com.Integrador.entities.Paciente@43c67247]
+[2023-07-05 18:30:10] [ DEBUG] [PacienteServiceTest:122] Finaliza correctamente el test para listar pacientes
+[2023-07-05 18:30:36] [ DEBUG] [PacienteServiceTest:45] Se inicia metodo setup para crear pacientes
+[2023-07-05 18:30:36] [ DEBUG] [PacienteServiceTest:60] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 18:30:36] [ DEBUG] [PacienteServiceTest:86] Service: Inicia test para listar pacientes
+[2023-07-05 18:30:36] [ DEBUG] [PacienteServiceTest:117] com.Integrador.entities.Paciente@6b9267b
+[2023-07-05 18:30:36] [ DEBUG] [PacienteServiceTest:122] Finaliza correctamente el test para listar pacientes
+[2023-07-05 18:31:18] [ DEBUG] [PacienteServiceTest:45] Se inicia metodo setup para crear pacientes
+[2023-07-05 18:31:18] [ DEBUG] [PacienteServiceTest:60] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 18:31:18] [ DEBUG] [PacienteServiceTest:86] Service: Inicia test para listar pacientes
+[2023-07-05 18:31:19] [ DEBUG] [PacienteServiceTest:121] Finaliza correctamente el test para listar pacientes
+[2023-07-05 18:31:50] [ DEBUG] [PacienteServiceTest:45] Se inicia metodo setup para crear pacientes
+[2023-07-05 18:31:50] [ DEBUG] [PacienteServiceTest:60] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 18:31:50] [ DEBUG] [PacienteServiceTest:86] Service: Inicia test para listar pacientes
+[2023-07-05 18:31:50] [ DEBUG] [PacienteServiceTest:121] Finaliza correctamente el test para listar pacientes
+[2023-07-05 19:27:38] [ DEBUG] [PacienteServiceTest:48] Se inicia metodo setup para crear pacientes
+[2023-07-05 19:27:38] [ DEBUG] [PacienteServiceTest:63] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 19:27:38] [ DEBUG] [PacienteServiceTest:131] Service: Inicia test para listar pacientes y que arroje una lista vacia
+[2023-07-05 20:49:22] [ DEBUG] [PacienteServiceTest:48] Se inicia metodo setup para crear pacientes
+[2023-07-05 20:49:22] [ DEBUG] [PacienteServiceTest:63] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 20:49:22] [ DEBUG] [PacienteServiceTest:149] Service: Inicia test para buscar paciente por id
+[2023-07-05 20:49:42] [ DEBUG] [PacienteServiceTest:48] Se inicia metodo setup para crear pacientes
+[2023-07-05 20:49:42] [ DEBUG] [PacienteServiceTest:63] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 20:49:42] [ DEBUG] [PacienteServiceTest:149] Service: Inicia test para buscar paciente por id
+[2023-07-05 20:57:14] [ DEBUG] [PacienteServiceTest:48] Se inicia metodo setup para crear pacientes
+[2023-07-05 20:57:14] [ DEBUG] [PacienteServiceTest:63] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-05 20:57:14] [ DEBUG] [PacienteServiceTest:149] Service: Inicia test para buscar paciente por id
