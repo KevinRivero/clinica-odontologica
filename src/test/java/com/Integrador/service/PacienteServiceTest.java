@@ -2,6 +2,7 @@ package com.Integrador.service;
 
 import com.Integrador.entities.Domicilio;
 import com.Integrador.entities.Paciente;
+import com.Integrador.exception.BadRequestException;
 import com.Integrador.repository.PacienteRepository;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.*;
@@ -14,7 +15,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.BDDMockito.given;
 import static org.assertj.core.api.AssertionsForClassTypes.*;
-import static org.mockito.Mockito.when;
+import static org.mockito.BDDMockito.willDoNothing;
+import static org.mockito.Mockito.*;
 
 import java.time.LocalDate;
 import java.util.*;
@@ -37,12 +39,14 @@ public class PacienteServiceTest {
     // variables a usar durante el desarrollo de los tests
     Paciente paciente;
     Domicilio domicilio;
+    Long ID;
 
 
     //------------------METODOS--------------------
 
     // Se crea un paciente para poder ejecturas las pruebas
     //este metodo se ejecuta antes de cada prueba
+    //setup() Inicializa y setea valores a domicilio y paciente
     @BeforeEach
     public void setup(){
         log.debug("Se inicia metodo setup para crear pacientes");
@@ -59,6 +63,9 @@ public class PacienteServiceTest {
         paciente.setDni("8448484");
         paciente.setFechaIngreso(LocalDate.of(2023, 06, 30));
         paciente.setDomicilio(domicilio);
+
+        // se le asigna un valor de tipo Long
+        ID = 1L;
 
         log.debug("Finaliza correctamente el metodo setup para crear pacientes");
     }
@@ -149,7 +156,7 @@ public class PacienteServiceTest {
         log.debug("Service: Inicia test para buscar paciente por id");
 
         //se le asigna al paciente un id de tipo Long
-        paciente.setId(1L);
+        paciente.setId(ID);
 
         //se simula el repository para que devuelva el paciente cuando se busque por id
         given(pacienteRepository.findById(paciente.getId())).willReturn(Optional.ofNullable(paciente));
@@ -161,6 +168,51 @@ public class PacienteServiceTest {
         assertThat(pacienteBuscado).isNotNull();
         assertEquals(pacienteBuscado.get().getId(), paciente.getId());
     }
+
+    @DisplayName("Service: Actualizar paciente")
+    @Test
+    void actualizarPaciente(){
+        //se logea informacion al principio y final del test
+        log.debug("Service: Inicia test para actualizar un paciente");
+
+        // modifico algun valor de paciente para actualizar
+        paciente.setId(ID);
+        paciente.setNombre("Jorge");
+        paciente.setApellido("Ramirez");
+
+        // se simula el repository para que devuelva el paciente actualizado
+        given(pacienteRepository.save(paciente)).willReturn(paciente);
+
+        //se utiliza el metodo del service
+        pacienteService.actualizarPaciente(paciente);
+
+        //se corrobora que el paciente no sea nulo y que los valores de nombre y apellido coincidan con los indicados
+        assertThat(paciente).isNotNull();
+        assertEquals(paciente.getNombre(), "Jorge");
+        assertEquals(paciente.getApellido(), "Ramirez");
+
+        log.debug("Finaliza correctamente el test para actualizar pacientes");
+
+    }
+    @DisplayName("Service: Eliminar paciente")
+    @Test
+    void eliminarPaciente(){
+
+        log.debug("Service: Inicia test para eliminar pacientes");
+
+        // para simular que, cuando se ejecute el metodo especificado, no retorne nada
+        willDoNothing().given(pacienteRepository).deleteById(ID);
+
+        //para verificar que el metodo se haya ejecutado solo una vez
+        verify(pacienteRepository,times(1)).deleteById(ID);
+
+
+        log.debug("Finaliza correctamente el test para eliminar pacientes");
+
+    }
+
+
+
 
 
 
