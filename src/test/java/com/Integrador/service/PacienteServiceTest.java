@@ -204,6 +204,8 @@ public class PacienteServiceTest {
         // para simular que, cuando se ejecute el metodo especificado, no retorne nada
         willDoNothing().given(pacienteRepository).deleteById(ID);
 
+        pacienteService.eliminarPaciente(ID);
+
         //para verificar que el metodo se haya ejecutado solo una vez
         verify(pacienteRepository,times(1)).deleteById(ID);
 
@@ -211,15 +213,6 @@ public class PacienteServiceTest {
         log.debug("Finaliza correctamente el test para eliminar pacientes");
 
     }
-
-
-
-
-
-
-
-
-
 
 }
 

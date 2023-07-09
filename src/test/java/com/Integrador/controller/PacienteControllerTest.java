@@ -232,10 +232,10 @@ public class PacienteControllerTest {
 
     }
 
-    @DisplayName("Controller: Eliminar paciente : No encontrado")
+    @DisplayName("Controller: Eliminar paciente")
     @Test
     void eliminarPaciente() throws Exception {
-        log.debug("Controller: Inicia test para eliminar paciente : No encontrado");
+        log.debug("Controller: Inicia test para eliminar paciente");
 
         //se tiene que usar el metodo buscarPacientePorId() porque en el Controller esta dentro del metodo y hay que simularlo por completo
         given(pacienteService.buscarPacientePorId(ID)).willReturn(Optional.of(paciente));
@@ -248,7 +248,9 @@ public class PacienteControllerTest {
 
         verify(pacienteService,times(1)).eliminarPaciente(ID);
 
-        log.debug("Finaliza correctamente el test para eliminar paciente : NO encontrado");
+        log.debug("Finaliza correctamente el test para eliminar paciente");
     }
+
+
 
 }
