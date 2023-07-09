@@ -1339,3 +1339,77 @@
 [2023-07-08 20:27:06] [ DEBUG] [PacienteServiceTest:52] Se inicia metodo setup para crear pacientes
 [2023-07-08 20:27:06] [ DEBUG] [PacienteServiceTest:70] Finaliza correctamente el metodo setup para crear pacientes
 [2023-07-08 20:27:06] [ DEBUG] [PacienteServiceTest:138] Service: Inicia test para listar pacientes y que arroje una lista vacia
+[2023-07-08 21:53:50] [ INFO ] [OdontologoController:52] Se creó correctamente el odontólogo
+[2023-07-08 22:07:55] [ DEBUG] [PacienteControllerTest:66] Se inicia metodo setup para crear pacientes
+[2023-07-08 22:07:55] [ DEBUG] [PacienteControllerTest:84] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-08 22:07:55] [ DEBUG] [PacienteControllerTest:90] Controller: Inicia metodo para guardar un paciente
+[2023-07-08 22:07:56] [ INFO ] [PacienteController:31] Paciente creado correctamente
+[2023-07-08 22:10:29] [ DEBUG] [PacienteControllerTest:66] Se inicia metodo setup para crear pacientes
+[2023-07-08 22:10:29] [ DEBUG] [PacienteControllerTest:84] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-08 22:10:29] [ DEBUG] [PacienteControllerTest:90] Controller: Inicia metodo para guardar un paciente
+[2023-07-08 22:10:29] [ INFO ] [PacienteController:31] Paciente creado correctamente
+[2023-07-08 22:20:35] [ DEBUG] [PacienteControllerTest:67] Se inicia metodo setup para crear pacientes
+[2023-07-08 22:20:35] [ DEBUG] [PacienteControllerTest:85] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-08 22:20:35] [ DEBUG] [PacienteControllerTest:91] Controller: Inicia metodo para guardar un paciente
+[2023-07-08 22:20:35] [ INFO ] [PacienteController:31] Paciente creado correctamente
+[2023-07-09 00:01:48] [ DEBUG] [PacienteControllerTest:71] Se inicia metodo setup para crear pacientes
+[2023-07-09 00:01:48] [ DEBUG] [PacienteControllerTest:89] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 00:01:48] [ DEBUG] [PacienteControllerTest:127] Controller: Inicia test para listar pacientes
+[2023-07-09 00:01:48] [ INFO ] [PacienteController:41] Se listaron correctamente los pacientes
+[2023-07-09 00:18:14] [ DEBUG] [PacienteControllerTest:71] Se inicia metodo setup para crear pacientes
+[2023-07-09 00:18:14] [ DEBUG] [PacienteControllerTest:89] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 00:18:14] [ DEBUG] [PacienteControllerTest:127] Controller: Inicia test para listar pacientes
+[2023-07-09 00:18:14] [ INFO ] [PacienteController:41] Se listaron correctamente los pacientes
+[2023-07-09 00:18:14] [ DEBUG] [PacienteControllerTest:156] Finaliza correctamente el test para listar pacientes
+[2023-07-09 18:51:09] [ DEBUG] [PacienteControllerTest:72] Se inicia metodo setup para crear pacientes
+[2023-07-09 18:51:09] [ DEBUG] [PacienteControllerTest:93] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 18:51:09] [ DEBUG] [PacienteControllerTest:168] Controller: Inicia el test para buscar pacientes por id
+[2023-07-09 18:51:09] [ INFO ] [PacienteController:51] Paciente con id 1 encontrado
+[2023-07-09 18:56:58] [ DEBUG] [PacienteControllerTest:72] Se inicia metodo setup para crear pacientes
+[2023-07-09 18:56:58] [ DEBUG] [PacienteControllerTest:93] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 18:56:58] [ DEBUG] [PacienteControllerTest:191] Controller: Inicia el test para buscar pacientes por id no encontrado
+[2023-07-09 18:56:58] [ ERROR] [PacienteController:55] No se encontro al paciente con id 1
+[2023-07-09 19:27:34] [ DEBUG] [PacienteControllerTest:72] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:27:34] [ DEBUG] [PacienteControllerTest:93] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:27:34] [ DEBUG] [PacienteControllerTest:205] Controller: Inicia test para actualizar pacientes
+[2023-07-09 19:27:35] [ INFO ] [PacienteController:84] Buscando paciente por el id 1 ...
+[2023-07-09 19:27:35] [ INFO ] [PacienteController:86] El paciente con id 1 fue encontrado
+[2023-07-09 19:27:35] [ INFO ] [PacienteController:88] El paciente con id 1 fue actualizado correctamente
+[2023-07-09 19:27:35] [ DEBUG] [PacienteControllerTest:229] Finaliza correctamente el test para actualizar pacientes
+[2023-07-09 19:37:07] [ DEBUG] [PacienteControllerTest:73] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:37:07] [ DEBUG] [PacienteControllerTest:94] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:37:07] [ DEBUG] [PacienteControllerTest:237] Controller: Inicia test para eliminar paciente
+[2023-07-09 19:38:16] [ DEBUG] [PacienteControllerTest:73] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:38:16] [ DEBUG] [PacienteControllerTest:94] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:38:16] [ DEBUG] [PacienteControllerTest:237] Controller: Inicia test para eliminar paciente
+[2023-07-09 19:38:16] [ ERROR] [PacienteController:72] No existe el paciente con id 1
+[2023-07-09 19:43:11] [ DEBUG] [PacienteControllerTest:73] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:43:11] [ DEBUG] [PacienteControllerTest:94] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:43:11] [ DEBUG] [PacienteControllerTest:237] Controller: Inicia test para eliminar paciente
+[2023-07-09 19:43:11] [ ERROR] [PacienteController:72] No existe el paciente con id 1
+[2023-07-09 19:48:19] [ DEBUG] [PacienteControllerTest:74] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:48:19] [ DEBUG] [PacienteControllerTest:95] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:48:19] [ DEBUG] [PacienteControllerTest:238] Controller: Inicia test para eliminar paciente
+[2023-07-09 19:48:19] [ INFO ] [PacienteController:31] Paciente creado correctamente
+[2023-07-09 19:48:19] [ ERROR] [PacienteController:72] No existe el paciente con id 1
+[2023-07-09 19:51:36] [ DEBUG] [PacienteControllerTest:74] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:51:36] [ DEBUG] [PacienteControllerTest:95] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:51:36] [ DEBUG] [PacienteControllerTest:238] Controller: Inicia test para eliminar paciente
+[2023-07-09 19:51:36] [ ERROR] [PacienteController:72] No existe el paciente con id 1
+[2023-07-09 19:54:43] [ DEBUG] [PacienteControllerTest:74] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:54:43] [ DEBUG] [PacienteControllerTest:95] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:54:43] [ DEBUG] [PacienteControllerTest:238] Controller: Inicia test para eliminar paciente : No encontrado
+[2023-07-09 19:54:43] [ ERROR] [PacienteController:72] No existe el paciente con id 1
+[2023-07-09 19:55:15] [ DEBUG] [PacienteControllerTest:74] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:55:15] [ DEBUG] [PacienteControllerTest:95] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:55:15] [ DEBUG] [PacienteControllerTest:238] Controller: Inicia test para eliminar paciente : No encontrado
+[2023-07-09 19:55:15] [ ERROR] [PacienteController:72] No existe el paciente con id 1
+[2023-07-09 19:57:49] [ DEBUG] [PacienteControllerTest:74] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:57:49] [ DEBUG] [PacienteControllerTest:95] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:57:49] [ DEBUG] [PacienteControllerTest:238] Controller: Inicia test para eliminar paciente : No encontrado
+[2023-07-09 19:57:49] [ INFO ] [PacienteController:68] El paciente fue eliminado correctamente
+[2023-07-09 19:58:21] [ DEBUG] [PacienteControllerTest:74] Se inicia metodo setup para crear pacientes
+[2023-07-09 19:58:21] [ DEBUG] [PacienteControllerTest:95] Finaliza correctamente el metodo setup para crear pacientes
+[2023-07-09 19:58:21] [ DEBUG] [PacienteControllerTest:238] Controller: Inicia test para eliminar paciente : No encontrado
+[2023-07-09 19:58:21] [ INFO ] [PacienteController:68] El paciente fue eliminado correctamente
+[2023-07-09 19:58:21] [ DEBUG] [PacienteControllerTest:250] Finaliza correctamente el test para eliminar paciente : NO encontrado

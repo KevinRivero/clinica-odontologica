@@ -194,6 +194,7 @@ public class PacienteServiceTest {
         log.debug("Finaliza correctamente el test para actualizar pacientes");
 
     }
+
     @DisplayName("Service: Eliminar paciente")
     @Test
     void eliminarPaciente(){

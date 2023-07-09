@@ -3,11 +3,13 @@ package com.Integrador.entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 @Entity
 @Table(name = "odontologos")
 @Getter
