@@ -1499,3 +1499,37 @@
 [2023-07-09 20:32:58] [ DEBUG] [PacienteServiceTest:70] Finaliza correctamente el metodo setup para crear pacientes
 [2023-07-09 20:32:58] [ DEBUG] [PacienteServiceTest:202] Service: Inicia test para eliminar pacientes
 [2023-07-09 20:32:58] [ DEBUG] [PacienteServiceTest:213] Finaliza correctamente el test para eliminar pacientes
+[2023-07-10 21:35:22] [ DEBUG] [OdontologoTest:27] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:36:19] [ DEBUG] [OdontologoTest:27] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:37:18] [ DEBUG] [OdontologoTest:27] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:37:18] [ DEBUG] [OdontologoTest:36] Finaliza correctamente el metodo setup
+[2023-07-10 21:37:18] [ DEBUG] [OdontologoTest:42] Repository: Inicia test para guardar odontologo
+[2023-07-10 21:37:18] [ DEBUG] [OdontologoTest:53] Repository: Finaliza correctamente el test para guardar odontologo
+[2023-07-10 21:42:39] [ DEBUG] [OdontologoTest:31] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:42:39] [ DEBUG] [OdontologoTest:40] Finaliza correctamente el metodo setup
+[2023-07-10 21:42:39] [ DEBUG] [OdontologoTest:63] Repository: Inicia test para listar odontologos
+[2023-07-10 21:44:09] [ DEBUG] [OdontologoTest:31] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:44:09] [ DEBUG] [OdontologoTest:40] Finaliza correctamente el metodo setup
+[2023-07-10 21:44:09] [ DEBUG] [OdontologoTest:63] Repository: Inicia test para listar odontologos
+[2023-07-10 21:45:11] [ DEBUG] [OdontologoTest:31] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:45:11] [ DEBUG] [OdontologoTest:40] Finaliza correctamente el metodo setup
+[2023-07-10 21:45:11] [ DEBUG] [OdontologoTest:63] Repository: Inicia test para listar odontologos
+[2023-07-10 21:47:59] [ DEBUG] [OdontologoTest:31] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:47:59] [ DEBUG] [OdontologoTest:40] Finaliza correctamente el metodo setup
+[2023-07-10 21:47:59] [ DEBUG] [OdontologoTest:63] Repository: Inicia test para listar odontologos
+[2023-07-10 21:49:17] [ DEBUG] [OdontologoTest:31] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:49:17] [ DEBUG] [OdontologoTest:40] Finaliza correctamente el metodo setup
+[2023-07-10 21:49:17] [ DEBUG] [OdontologoTest:63] Repository: Inicia test para listar odontologos
+[2023-07-10 21:49:17] [ DEBUG] [OdontologoTest:85] Finaliza correctamente el test para listar odontologos
+[2023-07-10 21:54:22] [ DEBUG] [OdontologoTest:32] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 21:54:22] [ DEBUG] [OdontologoTest:41] Finaliza correctamente el metodo setup
+[2023-07-10 21:54:22] [ DEBUG] [OdontologoTest:92] Repository: Inicia test para buscar un odontologo por su id
+[2023-07-10 21:54:22] [ DEBUG] [OdontologoTest:105] Repository: Finaliza correctamente el test para buscar un odontologo por su id
+[2023-07-10 22:00:20] [ DEBUG] [OdontologoTest:32] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 22:00:20] [ DEBUG] [OdontologoTest:41] Finaliza correctamente el metodo setup
+[2023-07-10 22:00:20] [ DEBUG] [OdontologoTest:112] Repository: Inicia test para actualizar un odontologo
+[2023-07-10 22:00:20] [ DEBUG] [OdontologoTest:132] Repository: Finaliza correctamente test para actualizar un odontologo
+[2023-07-10 22:05:13] [ DEBUG] [OdontologoTest:32] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-10 22:05:13] [ DEBUG] [OdontologoTest:41] Finaliza correctamente el metodo setup
+[2023-07-10 22:05:13] [ DEBUG] [OdontologoTest:139] Repository: Inicia test para eliminar un odontologo por su id
+[2023-07-10 22:05:13] [ DEBUG] [OdontologoTest:153] Repository: Finaliza correctamente el test para eliminar un odontologo por su id
