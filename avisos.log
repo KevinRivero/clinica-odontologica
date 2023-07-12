@@ -1533,3 +1533,53 @@
 [2023-07-10 22:05:13] [ DEBUG] [OdontologoTest:41] Finaliza correctamente el metodo setup
 [2023-07-10 22:05:13] [ DEBUG] [OdontologoTest:139] Repository: Inicia test para eliminar un odontologo por su id
 [2023-07-10 22:05:13] [ DEBUG] [OdontologoTest:153] Repository: Finaliza correctamente el test para eliminar un odontologo por su id
+[2023-07-10 22:19:28] [ DEBUG] [TurnoTest:36] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-10 22:19:28] [ DEBUG] [TurnoTest:63] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-10 22:19:28] [ DEBUG] [TurnoTest:69] Repository: Inicia test para guardar turnos
+[2023-07-10 22:19:28] [ DEBUG] [TurnoTest:77] Repository: Inicia test para guardar turnos
+[2023-07-10 22:24:22] [ DEBUG] [TurnoTest:38] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-10 22:24:23] [ DEBUG] [TurnoTest:65] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-10 22:24:23] [ DEBUG] [TurnoTest:86] Repository: Inicia test para listar turnos
+[2023-07-10 22:44:18] [ DEBUG] [TurnoTest:38] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-10 22:44:18] [ DEBUG] [TurnoTest:65] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-10 22:44:18] [ DEBUG] [TurnoTest:86] Repository: Inicia test para listar turnos
+[2023-07-10 22:46:47] [ DEBUG] [TurnoTest:38] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-10 22:46:47] [ DEBUG] [TurnoTest:65] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-10 22:46:47] [ DEBUG] [TurnoTest:71] Repository: Inicia test para guardar turnos
+[2023-07-10 22:46:47] [ DEBUG] [TurnoTest:79] Repository: Finaliza correctamente el test para guardar turnos
+[2023-07-10 22:49:11] [ DEBUG] [TurnoTest:42] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-10 22:49:11] [ DEBUG] [TurnoTest:69] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-10 22:49:11] [ DEBUG] [TurnoTest:90] Repository: Inicia test para listar turnos
+[2023-07-10 22:50:45] [ DEBUG] [TurnoTest:42] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-10 22:50:45] [ DEBUG] [TurnoTest:69] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-10 22:50:45] [ DEBUG] [TurnoTest:90] Repository: Inicia test para listar turnos
+[2023-07-10 22:50:45] [ DEBUG] [TurnoTest:134] Repository: Finaliza correctamente el test para listar turnos
+[2023-07-11 00:23:51] [ DEBUG] [TurnoTest:42] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-11 00:23:51] [ DEBUG] [TurnoTest:72] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-11 00:23:51] [ DEBUG] [TurnoTest:78] Repository: Inicia test para guardar turnos
+[2023-07-11 00:23:51] [ DEBUG] [TurnoTest:86] Repository: Finaliza correctamente el test para guardar turnos
+[2023-07-11 00:24:10] [ DEBUG] [TurnoTest:42] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-11 00:24:10] [ DEBUG] [TurnoTest:72] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-11 00:24:10] [ DEBUG] [TurnoTest:93] Repository: Inicia test para listar turnos
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:135] Repository: Finaliza correctamente el test para listar turnos
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:42] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:72] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:142] Repository: Inicia test para buscar turnos por id
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:146] Repository: Finaliza correctamente el test para buscar turnos por id
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:42] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:72] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:78] Repository: Inicia test para guardar turnos
+[2023-07-11 00:24:11] [ DEBUG] [TurnoTest:86] Repository: Finaliza correctamente el test para guardar turnos
+[2023-07-11 00:27:55] [ DEBUG] [TurnoTest:44] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-11 00:27:55] [ DEBUG] [TurnoTest:74] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-11 00:27:55] [ DEBUG] [TurnoTest:144] Repository: Inicia test para buscar turnos por id
+[2023-07-11 00:27:55] [ DEBUG] [TurnoTest:156] Repository: Finaliza correctamente el test para buscar turnos por id
+[2023-07-11 22:19:06] [ DEBUG] [TurnoTest:44] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-11 22:19:06] [ DEBUG] [TurnoTest:74] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-11 22:19:06] [ DEBUG] [TurnoTest:162] Repository: Inicia test para actualizar un turno
+[2023-07-11 22:19:06] [ DEBUG] [TurnoTest:211] Repository: Finaliza correctamente el test para actualizar un turno
+[2023-07-11 22:27:33] [ DEBUG] [TurnoTest:45] Se iniciliazan las variables necesarias para realizar los test
+[2023-07-11 22:27:33] [ DEBUG] [TurnoTest:74] Se guarda correctamente un paciente y un odontologo(pruebas) dentro de la bdd
+[2023-07-11 22:27:33] [ DEBUG] [TurnoTest:76] Se iniciliazaron correctamente las variables necesarias para realizar los test
+[2023-07-11 22:27:33] [ DEBUG] [TurnoTest:220] Repository: Inicia test para eliminar un turno
+[2023-07-11 22:27:33] [ DEBUG] [TurnoTest:233] Repository: Finaliza correctamente el test para eliminar un turno
