@@ -1583,3 +1583,18 @@
 [2023-07-11 22:27:33] [ DEBUG] [TurnoTest:76] Se iniciliazaron correctamente las variables necesarias para realizar los test
 [2023-07-11 22:27:33] [ DEBUG] [TurnoTest:220] Repository: Inicia test para eliminar un turno
 [2023-07-11 22:27:33] [ DEBUG] [TurnoTest:233] Repository: Finaliza correctamente el test para eliminar un turno
+[2023-07-12 22:29:34] [ DEBUG] [OdontologoServiceTest:42] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-12 22:29:34] [ DEBUG] [OdontologoServiceTest:51] Finaliza correctamente el metodo setup
+[2023-07-12 22:29:34] [ DEBUG] [OdontologoServiceTest:58] Service: Inicia test para guardar un odontologo
+[2023-07-12 22:31:24] [ DEBUG] [OdontologoTest:32] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-12 22:31:24] [ DEBUG] [OdontologoTest:41] Finaliza correctamente el metodo setup
+[2023-07-12 22:31:24] [ DEBUG] [OdontologoTest:47] Repository: Inicia test para guardar odontologo
+[2023-07-12 22:31:24] [ DEBUG] [OdontologoTest:58] Repository: Finaliza correctamente el test para guardar odontologo
+[2023-07-12 22:32:42] [ DEBUG] [OdontologoServiceTest:42] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-12 22:32:42] [ DEBUG] [OdontologoServiceTest:51] Finaliza correctamente el metodo setup
+[2023-07-12 22:32:42] [ DEBUG] [OdontologoServiceTest:58] Service: Inicia test para guardar un odontologo
+[2023-07-12 22:32:42] [ DEBUG] [OdontologoServiceTest:73] Service: Finaliza correctamente el test para guardar un odontologo
+[2023-07-12 22:44:36] [ DEBUG] [OdontologoServiceTest:45] Se inicializa correctamente un odontologo para la ejecucion de los test
+[2023-07-12 22:44:36] [ DEBUG] [OdontologoServiceTest:54] Finaliza correctamente el metodo setup
+[2023-07-12 22:44:36] [ DEBUG] [OdontologoServiceTest:82] Service: Inicia test para listar odontologos
+[2023-07-12 22:44:36] [ DEBUG] [OdontologoServiceTest:104] Service: Finaliza correctamente el test para listar odontologos
