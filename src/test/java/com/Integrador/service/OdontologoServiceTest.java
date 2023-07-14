@@ -16,6 +16,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -102,6 +103,63 @@ public class OdontologoServiceTest {
         assertEquals(odontologosListados.size(), 2 );
 
         log.debug("Service: Finaliza correctamente el test para listar odontologos");
+    }
+
+    @DisplayName("Service: Test para buscar un odontologo por su id")
+    @Test
+    void buscarOdontologoPorId(){
+        log.debug("Service: Inicia test para buscar un odontologo por su id");
+
+        odontologo.setId(ID);
+
+        given(odontologoRepository.findById(odontologo.getId())).willReturn(Optional.of(odontologo));
+
+        Optional<Odontologo> odontologoBuscado = odontologoService.buscarOdontologoPorId(ID);
+
+        assertThat(odontologoBuscado).isNotEmpty();
+        assertEquals(odontologoBuscado.get().getId(), odontologo.getId());
+
+        log.debug("Service: Finaliza correctamente el test para buscar un odontologo por su id");
+    }
+
+    @DisplayName("Service: Test para actualizar odontologos")
+    @Test
+    void actualizarOdontologo(){
+        log.debug("Service: Inicia test para actualizar un odontologo");
+
+        //se modifican los datos de odontologo para corroborar los cambios
+        odontologo.setId(ID);
+        odontologo.setNombre("Tiziana");
+        odontologo.setApellido("Canete");
+        odontologo.setMatricula("46");
+
+        given(odontologoRepository.save(odontologo)).willReturn(odontologo);
+
+        Odontologo odontologoActualizado = odontologoService.altaOdontologo(odontologo);
+
+        assertThat(odontologoActualizado).isNotNull();;
+        assertEquals(odontologoActualizado.getNombre(), odontologo.getNombre());
+        assertEquals(odontologoActualizado.getApellido(), odontologo.getApellido());
+        assertEquals(odontologoActualizado.getMatricula(), odontologo.getMatricula());
+
+        log.debug("Service: Finaliza correctamente el test para buscar un odontologo por su id");
+    }
+
+    @DisplayName("Service: Eliminar odontologo")
+    @Test
+    void eliminarOdontologo(){
+        log.debug("Service: Inicia test para eliminar odontologos");
+
+        odontologo.setId(ID);
+
+        willDoNothing().given(odontologoRepository).deleteById(odontologo.getId());
+
+        odontologoService.eliminarOdontologo(odontologo.getId());
+
+        //se corrobora que solamente se haya ejecutado el metodo una vez
+        verify(odontologoRepository,times(1)).deleteById(ID);
+
+        log.debug("Service: Finaliza correctamente el test para eliminar odontologos");
 
     }
 }
