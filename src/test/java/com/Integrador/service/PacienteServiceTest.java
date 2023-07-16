@@ -209,7 +209,6 @@ public class PacienteServiceTest {
         //para verificar que el metodo se haya ejecutado solo una vez
         verify(pacienteRepository,times(1)).deleteById(ID);
 
-
         log.debug("Finaliza correctamente el test para eliminar pacientes");
 
     }

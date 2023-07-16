@@ -94,7 +94,7 @@ public class OdontologoTest {
         //se guarda primero un odontologo
         odontologoRepository.save(odontologo);
 
-        Optional<Odontologo> odontologoBuscado = odontologoRepository.findById(ID);
+        Optional<Odontologo> odontologoBuscado = odontologoRepository.findById(odontologo.getId());
 
         assertThat(odontologoBuscado).isNotEmpty();
         assertEquals(odontologoBuscado.get().getNombre(), odontologo.getNombre(),"El nombre es correcto");
@@ -112,8 +112,8 @@ public class OdontologoTest {
         log.debug("Repository: Inicia test para actualizar un odontologo");
 
         Odontologo odontologoGuardado = odontologoRepository.save(odontologo);
-        //se corrobora que el id del odontologo guardado sea igual a la variable ID
-        assertEquals(odontologoGuardado.getId(),ID);
+        //se corrobora que el id del odontologo sea mayor a 0
+        assertThat(odontologoGuardado.getId()).isGreaterThan(0);
 
         Odontologo odontologo2 = new Odontologo();
         odontologo2.setId(ID); // se le asigna el mismo id que el odontologo guardado porque justamente se quiere actualizar y deben tener el mismo identificador

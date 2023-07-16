@@ -4,7 +4,6 @@ import com.Integrador.entities.Odontologo;
 import com.Integrador.exception.BadRequestException;
 import com.Integrador.exception.ResourceNotFoundException;
 import com.Integrador.service.OdontologoService;
-import org.apache.coyote.Response;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

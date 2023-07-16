@@ -1,6 +1,5 @@
 package com.Integrador.service;
 
-import com.Integrador.entities.Odontologo;
 import com.Integrador.entities.Turno;
 import com.Integrador.repository.TurnoRepository;
 import org.springframework.beans.factory.annotation.Autowired;

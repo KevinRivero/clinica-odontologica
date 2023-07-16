@@ -145,9 +145,8 @@ public class TurnoTest {
         log.debug("Repository: Inicia test para buscar turnos por id");
 
         Turno turnoGuardado = turnoRepository.save(turno);
-        assertEquals(turnoGuardado.getId(), ID);
 
-        Optional<Turno> turnoBuscado = turnoRepository.findById(ID);
+        Optional<Turno> turnoBuscado = turnoRepository.findById(turnoGuardado.getId());
 
         assertThat(turnoBuscado).isNotEmpty();
         assertEquals(turnoBuscado.get().getPaciente().getId(), paciente.getId());
@@ -220,13 +219,12 @@ public class TurnoTest {
         log.debug("Repository: Inicia test para eliminar un turno");
 
         Turno turnoGuardado = turnoRepository.save(turno);
-        assertEquals(turnoGuardado.getId(), ID) ;
 
         //metodo a testear,se borra el turno
-        turnoRepository.deleteById(ID);
+        turnoRepository.deleteById(turnoGuardado.getId());
 
         //se busca el turno para corroborar que los datos fueron eliminados
-        Optional<Turno> turnoEliminado = turnoRepository.findById(ID);
+        Optional<Turno> turnoEliminado = turnoRepository.findById(turnoGuardado.getId());
 
         assertThat(turnoEliminado).isEmpty();
 
