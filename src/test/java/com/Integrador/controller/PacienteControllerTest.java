@@ -7,21 +7,16 @@ import com.Integrador.service.OdontologoService;
 import com.Integrador.service.PacienteService;
 import com.Integrador.service.TurnoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import net.bytebuddy.asm.Advice;
-import net.bytebuddy.build.ToStringPlugin;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
-import org.springframework.web.HttpMediaTypeNotAcceptableException;
-
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -49,11 +44,13 @@ public class PacienteControllerTest {
     private MockMvc mockMvc;
 
     @MockBean // para agregar objetos simulados al contexto de la aplicacion
-    PacienteService pacienteService;
+    private PacienteService pacienteService;
+
     @MockBean
-    OdontologoService odontologoService;
+    private OdontologoService odontologoService;
+
     @MockBean
-    TurnoService turnoService;
+    private TurnoService turnoService;
 
     @Autowired
     private ObjectMapper objectMapper;
@@ -62,7 +59,6 @@ public class PacienteControllerTest {
     Paciente paciente;
     Domicilio domicilio;
     Long ID;
-
 
     //------------------METODOS--------------------
 
@@ -89,8 +85,6 @@ public class PacienteControllerTest {
         paciente.setFechaIngreso(LocalDate.of(2023, 06, 30));
         paciente.setDomicilio(domicilio);
         paciente.setId(ID);
-
-
 
         log.debug("Finaliza correctamente el metodo setup para crear pacientes");
     }
